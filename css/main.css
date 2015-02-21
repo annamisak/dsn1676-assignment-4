@@ -49,22 +49,22 @@ dl {
     margin-right: auto;
     width: 100%;
     border: 2px solid lightblue;
-    border-radius: 1em;
+    border-radius: 50px/20px;
 }
 
-dt {
+dl dt {
     color: darkgrey;
     padding: 1em;
     float: left;
     width: 8.5em;
-    clear: left;
     border-right: 2px solid lightblue;
-    font-weight: bold;
     text-align: right;
     font-size: .8em;
+    clear: left;
+    background-color: #eaf6f7;
 }
 
-dd {
+dl dd {
     padding: .7em;
     margin: 0;
     text-align: left;
