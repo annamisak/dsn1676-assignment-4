@@ -59,7 +59,7 @@ dl dt {
     width: 8.5em;
     border-right: 2px solid lightblue;
     text-align: right;
-    font-size: .8em;
+    font-size: .85em;
     clear: left;
     background-color: #eaf6f7;
 }
@@ -72,15 +72,19 @@ dl dd {
     float: left;
 }
 
-dd:first-of-type {
+dl dd:first-of-type {
     font-weight: bold;
     text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    padding: .7em 0;
+    border-bottom: 2px solid lightblue;
 }
 
 @media only screen and (min-width: 30em) {
     
     dl {
-        width: 21em;
+        width: 21.5em;
     }
 
 }
