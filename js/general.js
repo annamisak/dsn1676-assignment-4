@@ -1,5 +1,5 @@
 function main() {
-    document.write('<h1>Fruits & Berries</h1>' );
+    document.write('<h1>Delicious Berries</h1>' );
 }
 
 var blueberry = {
