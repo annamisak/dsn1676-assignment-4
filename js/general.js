@@ -8,7 +8,7 @@ var blueberries = {
     energy: '240 kJ',
     carbohydrates: '14.49 g',
     protein: '0.74 g',
-    growsOnShrub: 'Yes'
+    growsOnShrub: true
 };
 
 var grapes = {
@@ -17,7 +17,7 @@ var grapes = {
     energy: '288 kJ',
     carbohydrates: '18.1 g',
     protein: '0.72 g',
-    growsOnShrub: 'No'
+    growsOnShrub: false
 };
 
 var redcurrant = {
@@ -26,7 +26,7 @@ var redcurrant = {
     energy: '234 kJ',
     carbohydrates: '13.8 g',
     protein: '1.4 g',
-    growsOnShrub: 'Yes'
+    growsOnShrub: true
 };
 
 var writeFruit = function (allFruit) {
